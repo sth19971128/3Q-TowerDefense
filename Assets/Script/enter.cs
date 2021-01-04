@@ -1,7 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
+using Script;
 using UnityEngine;
+using Quaternion = UnityEngine.Quaternion;
+using Vector3 = UnityEngine.Vector3;
 
 public class enter : MonoBehaviour
 {
@@ -10,6 +14,7 @@ public class enter : MonoBehaviour
     {
         //进入场景打印
         Debug.Log("开始游戏");
+
     }
 
     // Update is called once per frame
