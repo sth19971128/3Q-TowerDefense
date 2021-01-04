@@ -34,9 +34,9 @@
         
         public enum ObjectType
         {
-            TOWER,//塔
-            MONSTER,//怪物
-            HERO, //暂定有英雄
+            Tower,//塔
+            Monster,//怪物
+            Hero, //暂定有英雄
         };
     }
 }

@@ -18,12 +18,16 @@ public class Tower : myObject {
     // Use this for initialization
     void Start ()
     {
-        type = (int)ConstConfig.ObjectType.TOWER;
+        type = (int)ConstConfig.ObjectType.Tower;
         Defence = 1234;
     }
     
     // Update is called once per frame
     void Update () {
         
+    }
+
+    public void upgradeTower()
+    {
     }
 }

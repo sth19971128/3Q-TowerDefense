@@ -36,14 +36,14 @@ namespace Script.Factory
             GameObject tempInstance = null;
             switch (type)
             {
-                case ConstConfig.ObjectType.TOWER:
+                case ConstConfig.ObjectType.Tower:
                     Debug.Log("创建塔");
                     tempInstance = (GameObject)Instantiate(Resources.Load(prefabPath),pos,rotate);
                     break;
-                case ConstConfig.ObjectType.MONSTER:
+                case ConstConfig.ObjectType.Monster:
                     Debug.Log("创建怪物");
                     break;
-                case ConstConfig.ObjectType.HERO:
+                case ConstConfig.ObjectType.Hero:
                     Debug.Log("创建子弹");
                     break;
                 default:
